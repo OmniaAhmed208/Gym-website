@@ -1,0 +1,128 @@
+
+/* =============== Media ==================== */
+
+@media (max-width:1117px) {
+    .all .upper-bar .info span{font-size: 16px;}
+}
+
+@media (min-width:992px) {
+    .all .upper-bar{display: block;}
+    .navbar input{display: block;}
+}
+
+@media (max-width:992px) {
+    .collapse ul li #active{padding-left: 0;}
+    .carousel-caption .info h2{font-size: 30px;font-weight: 600;}
+    .carousel-caption input {padding: 7px 28px;}
+
+    .about .img{justify-content: center;display: flex;}
+    .about .img img{padding-bottom: 20px; height: 444px;width: 100%;filter: brightness(0.5);}
+    .about .info h2 {font-size: 50px;}
+    .about .box input {padding: 8px 72px;}
+    .about .box a{margin: 0 0px 0 40px;}
+
+    .discount{padding-bottom: 50px;}
+    .discount .box{margin-bottom: 120px;}
+    .discount .h1{padding: 0px 0 28px;font-size: 40px;margin-top: -64px;}
+
+    .hours h2{font-size: 50px;}
+    .hours ul{padding: 0.5rem 1rem;border-radius: 15px;width: 50%;}
+    .hours ul li{display: block;font-size: 14px; padding: 4px 0 4px}
+    
+    .counterDiv{text-align: center;padding: 45px 65px 10px;margin: 50px 0;}
+    .counterDiv h4{padding-top: 12px;}
+    .counterDiv .count{font-size: 30px;padding-bottom: 20px;}
+    
+    .trainers {padding: 25px 20px 50px;}
+    .trainers h2{font-size: 50px;}
+    .trainers .info {margin-bottom: 25px;}
+    
+    .clients .img-left{margin: 0;width: 100%;}
+    .clients h2 {font-size: 55px;}
+    .clients .user img{width: 100px;}
+
+    .clients .carousel-control-prev{margin: 0px 0 0 -61px;}
+    .clients .carousel-control-next{margin: -44px 0 0 -41px;}
+    
+    .blog{padding-top: 55px;}
+    .blog h2 {font-size: 50px;}
+    .blog .info{display: flex;justify-content: center;}
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .footer .news{padding: 31% 46px;margin: 0 72px 0 300px;}
+    .footer .copy{padding: 20px 30px;}
+}
+
+@media (max-width:768px) {
+    .navbar-brand h1 {font-size: 44px;padding: 33px 0 0 0px;}
+
+    .clients .img-left{margin: 0;}
+    .clients .right h2 {font-size: 40px;}
+    .clients .right .info p {font-size: 21px;}
+    .clients .carousel-control-prev{margin: 0px 0 0 -48px;}
+    .clients .carousel-control-next{margin: -44px 0 0 -28px;}
+
+    .footer{position: static;}
+    .footer .news{position: static;margin: 0;}
+    .footer .news p:last-child{position: static;margin: 39px 0 -39px 0;}
+    .footer .copy {margin: 0 -40px 0;padding: 18px;text-align: center;}
+}
+
+@media (max-width:576px) {
+
+    .carousel-caption .info{margin-top: 8%;}
+    .carousel-caption .info h2{font-size: 20px;}
+    .carousel-caption input{padding: 5px 20px;font-size: 13px;margin-top: 15px;}
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon
+    {width: 1rem; height: 1rem;}
+
+    .about {padding-top: 60px;}
+    .about .info{margin: 0;}
+    .about .info h2{font-size: 24px;} 
+    .about .info h4{font-size: 14px;} 
+    .about .info .p1{display: none;} 
+    .about .box{
+        padding: 8px 20px 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .box input {padding: 8px 48px;}
+    .about .box a{margin: 0;}
+    .about .info .p2{margin-top:13px;font-size: 14px;}
+    .about .info .p2 span{display: none;}
+
+    .discount .box{padding: 20px 40px;}
+    .discount .box img{width: 70px;}
+    .discount .box h2{font-size: 20px;}
+    .discount .box p{font-size: 12px;}
+    .discount .box a{font-size: 14px;}
+    .discount .h1{font-size: 30px;}
+    .discount input{padding:10px 30px;font-size: 16px;}
+
+    .hours h2{font-size:40px;}
+
+    .counterDiv i{padding: 12px;font-size: 22px;}
+    .counterDiv .count{font-size: 23px;padding-bottom: 30px;}
+
+    .trainers h2{font-size: 40px;}
+
+    .clients .right h2{font-size: 30px;}
+    .clients .right .info p{font-size: 15px;}
+    .clients .carousel-control-prev{margin: 0px 0 0 -24px;}
+    .clients .carousel-control-next{margin: -44px 0 0 -4px;}
+
+    .blog h2 {font-size: 40px;}
+
+    .footer .news{display: flex;flex-direction: column;}
+    .footer .news input[type='email'] {padding: 7px 12px;border-radius:3px;}
+    .footer .news input[type = 'button']{padding:10px;border-radius:3px;font-size: 14px;}
+    .footer .news p:last-child{margin-top: 30px;font-size: 13px;}
+    .footer .news p span {font-size: 17px;}
+    .footer .copy{padding: 10px;font-size: 13px;}
+
+    .scroll{right: 3px;padding: 4px 13px;font-size: 18px;}
+}
